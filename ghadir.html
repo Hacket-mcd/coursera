@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسابقه اطلاعات عمومی | گروه محبان الحیدر</title>
+    <script>
+
+        function name1func() {
+           var name = document.getElementById("name1").value;
+           document.getElementById("name1p").innerHTML = name;
+        }
+
+        var tclicks = 0;
+        var fclicks = 0;
+
+        function showResults() {
+            document.getElementById("cs").innerHTML = tclicks ;
+            document.getElementById("ucs").innerHTML = fclicks ;
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: nazanin ;
+            src: url(BNAZANIN.TTF);
+        }
+        *{
+            font-family:nazanin ;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        input {
+            display: inline;
+        }
+        div p {
+            display:inline;
+        }
+        body {
+            background-image: url(green_bg.jpg);
+            background-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>بسم الله الرحیمن الرحیم</h1>
+    <header>
+        <!-- timre -->
+    </header>
+    <main>
+        <input type="text" placeholder="نام و نام خانوادگی" id="name1">
+        <button onclick="name1func()">ثبت</button>
+        <div id="name1p"></div>
+        <section>
+            <div>
+                <p>۱) اولین نماز جمعه تهران به امامت چه کسی برگزار شد؟</p>
+                <p>آیه الله طالقانی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲) نام مخترع موتورسیکلت ؟</p>
+                <p>گوتلیپ دایملر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳) کدام درخت نماد صلح است ؟</p>
+                <p>درخت زیتون</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴) هفدهم ربیع الاول میلاد کدام دو معصوم است ؟</p>
+                <p>پیغمبر و امام صادق</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵) شهادت حضرت رسول با کدام یک از امامان در یک روز است ؟</p>
+                <p>امام حسن</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶) بزرگترین فرودگاه دنیا در کدام شهر است ؟</p>
+                <p>دمام / عربستان</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۷) تهران در زمان چه کسی به عنوان پایتخت انتخاب شد ؟</p>
+                <p>آقا محمد خان قاجار</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۸) مرقد شیخ مفید در کجا قرار دارد ؟</p>
+                <p>کاظمین</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۹) چند سوره از قرآن دارای حروف مقطعه هستند ؟</p>
+                <p>۲۹</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۰) فاصله نقطه پنالتی تا دروازه در زمین فوتبال چقدر است ؟</p>
+                <p>۱۱ متر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۱) نام کتابی که حاوی کلمات قصار و خطبه های پیامبر اسلام می باشد ؟</p>
+                <p>نهج الفصاحه</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۲) واحد پول صربستان چیست ؟</p>
+                <p>دینار</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۳) آغاز اعتکاف چه روزی است ؟</p>
+                <p>۱۳ رجب</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۴)کدام دو کتاب به ترتیب برادر و خواهر قرآن اند ؟</p>
+                <p>نهج البلاغه / صحیفه سجادیه</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۵) قسطنطنیه نام قدیم کدام شهر است ؟</p>
+                <p>استانبول</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۶)شهید همت در کدام عملیات شهید شد ؟</p>
+                <p>عملیات خیبر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۷)زنبور ها چند چشم دارند ؟</p>
+                <p>۵ تا</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۸) کدام تیم بیشترین حضور در فینال جام جهانی را داشته است ؟</p>
+                <p>آلمان</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۱۹) بیشتر از ۷۵ درصد سطح زمین از چه نوع سنگی تشکیل شده است ؟</p>
+                <p>سنگ رسوبی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۰) پایتخت ترکیه کدام شهر است ؟</p>
+                <p>آنکارا</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۱) مقبره شهریار در کدام شهر است ؟</p>
+                <p>تبریز</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۲)چند کشور در اطراف خلیج فارس قرار دارد ؟ </p>
+                <p>هشت کشور</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۳)کوتاه ترین مرز خاکی ایران با چه کشوری است ؟</p>
+                <p>ارمنستان</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۴) جنگ صد ساله چند سال طول کشید ؟</p>
+                <p>۱۱۶</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۵) کدام حیوان، سه قلب دارد ؟</p>
+                <p>هشت پا</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۶) چه حیوانی کمترین ضربان قلب را دارد ؟</p>
+                <p>فیل</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۷) سریع ترین عضله بدن چیست ؟</p>
+                <p>زبان</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۸) غیبت کبری امام زمان -علیه السلام- از چه سال قمری شروع شد ؟</p>
+                <p>۳۲۹ هجری</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۲۹) وسیع ترین اقیانوس جهان کدام است ؟</p>
+                <p>اقیانوس آرام</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۰)بزرگترین رودخانه ایران چه رودی است ؟</p>
+                <p>کارون</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۱) سیمین دانشور همسر که بود ؟</p>
+                <p>جلال آل احمد</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۲)پایتخت استرلیا چه شهری است ؟</p>
+                <p>کانبرا</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۳)چند کشور ( با احتساب ایران ) در همسایگی دریای خزر قرار دارند ؟</p>
+                <p>۵ تا</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۴) در کدام سوره ۱۱ بار قسم آمده است ؟</p>
+                <p>شمس</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۵) امیرالمومنین -علیه السلام- در کدام جنگ با خوارج جنگیدند ؟</p>
+                <p>نهروان</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۶)طولانی ترین رود جهان چه رودی است ؟</p>
+                <p>نیل</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۷) واحد شمارش درخت خرما ؟</p>
+                <p>نفر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۷)سال نوری واحد چیست ؟</p>
+                <p>مسافت</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۸) کوچکترین سیاره منظومه شمسی ؟</p>
+                <p>عطارد / تیر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۳۹) کدام سیاره بیشترین قمر را دارد ؟</p>
+                <p>زحل</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۰)کاشف پنی سیلین ؟</p>
+                <p>الکساندر فلمینگ</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۱)پایتخت بلژیک کجاست ؟</p>
+                <p>بروکسل</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۲)اسکلت انسان در بزرگی از چند قطعه استخوان تشکیل شده است ؟</p>
+                <p>۲۰۶</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۳) در چند سالگی پیامبر، جناب عبدالمطلب از دنیا رفتند ؟</p>
+                <p>۸ سالگی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۴)بلندترین کوه آفریقا کدام کوه است ؟</p>
+                <p>کلیمناجارو</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۵) مخترع دینامیت کیست ؟</p>
+                <p>آلفرد نوبل</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۶) کدام جانور قلبش در سرش است ؟</p>
+                <p>میگو</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۷)اولین موجود زنده ای که به فضا فرستاده شد چه بود ؟</p>
+                <p>مگس</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۸) کتاب اسرار التوحید درباره زندگی کدام شخصیت است ؟</p>
+                <p>ابوسعید ابوالخیر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۴۹) عمیق ترین دریاچه جهان ؟</p>
+                <p>دریاچه بایکال</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۰)  امام سجاد -علیه السلام- در چند سالگی به شهادت رسیدند ؟</p>
+                <p>۵۷</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۱)  جایزه جشنواره فیلم برلین در آلمان چیست ؟</p>
+                <p>خرس طلایی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۱)  معراج پیامبر در چه سالی بود ؟</p>
+                <p>سال دهم هجری</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۲) کدام حیوان بیشترین ضربان قلب را دارد ؟</p>
+                <p>قناری ( ۱۰۰۰ در دقیقه )</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۳)  تنها جانوری که مغز ندارد چیست ؟</p>
+                <p>ستاره دریایی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۳) شور ترین دریاچه جهان ؟</p>
+                <p>بحر المیت / دریای مرده</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۴) تغییر حالت جامد به گاز را چه می گویند ؟</p>
+                <p>تصعید</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۵) کدام نماز فقط باید به جماعت خوانده شود ؟</p>
+                <p>نماز جمعه</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۶)تصویر ساعت ۴ و۱۵ دقیقه در آینه چه ساعتی است ؟ </p>
+                <p>۷ و ۴۵</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۷) اولین نمازی که بر پیامبر واجب شد ؟ </p>
+                <p>ظهر</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۸) الغدیر چند جلد است ؟ </p>
+                <p>۲۰ جلد</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۵۹)  چند جلد الغدیر چاپ شده است ؟ </p>
+                <p>۱۱ تا </p>
+                
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۰) بدن انسان چند جفت دنده دارد ؟</p>
+                <p>۱۲ جفت</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۱) اولین آیاتی که بر پیامبر نازل شد مربوط به کدام سوره بود ؟</p>
+                <p>سوره علق</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۲) پرچم سازمان ملل چه رنگی است ؟</p>
+                <p>آبی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۳) خون کدام جانور به رنگ آبی است ؟</p>
+                <p>میگو</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۴) نخستین آسیاب های بادی در کدام کشور ساخته شدند ؟</p>
+                <p>ایران</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>۶۵)پدر علم جبر کدام دانشمند ایرانی است ؟ </p>
+                <p>خوارزمی</p>
+                <input value="درست" type="button" onclick="tclicks++">
+                <input value="غلط" type="button" onclick="fclicks++">
+            </div>
+        </section>
+
+
+        <button onclick="showResults()">مشاهده نتایج</button>
+        <p> تعداد جواب های درست = <span id="cs"></span> عدد </p>
+        <p> تعداد جواب های غلط = <span id="ucs"></span> عدد </p>
+    </main>
+</body>
+</html>
